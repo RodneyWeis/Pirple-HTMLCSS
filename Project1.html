@@ -19,32 +19,55 @@
             max-width: 275px;
         }
         h1, h2 {
-            text-align: center;
             color: yellow;
             font-weight: 300;
             padding: 0.2em;
         }
         .centered {
             text-align: center;
+            margin: 0 auto;
+        }
+        article {
+            background-color: #efefef;
+            padding: 1em;
+            width: 60%;
+        }
+        article p {
+            text-align: left;
+        }
+        article h2 {
+            color: #222222;
         }
     </style>
 </head>
 <body>
-    <header>
+    <!-- The header is displayed at the top of the page, giving the description of the page's contents -->
+    <header class="centered">
         <img src="eyeofsauron.png" alt="The eye of Sauron atop the tower of Barad-dur" />
         <h1>The Lord of the Rings</h1>
         <h2>the timeless trilogy by</h2>
         <h2>J.R.R. Tolkien</h2>
     </header>
     <main>
+        <article class="centered">
+            <h2>The most influential book of the 20th Century?</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores assumenda dolorem iste aperiam, et fugit laborum voluptate quae? Facere doloribus distinctio recusandae voluptates nulla necessitatibus alias quo quod reiciendis officia.
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore dolorem, vitae amet tenetur maxime similique neque. Repellat iste, deserunt provident aut, aliquam veniam quos fuga reiciendis pariatur inventore esse ullam.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum obcaecati velit adipisci est consequatur sequi fugit maiores natus architecto! Placeat nihil velit libero quis error dolores saepe maiores optio?
+            </p>
+        </article>
+        <!-- Just for fun, a YouTube video that pokes some fun at the Lord of the Rings movie franchise -->
         <section class="centered">
             <h2>On a lighter note...</h2>
             <iframe width="560" height="315"src="https://www.youtube.com/embed/AOIi9SjJvgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section class="centered">
 
     </main>
+    <!-- One of my favourite quotes from the book -->
     <footer>
-        <h2>
+        <h2 class="centered">
             "All that is gold does not glitter, not all who wander are lost"
         </h2>
     </footer>
